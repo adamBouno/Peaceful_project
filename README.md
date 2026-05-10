@@ -37,4 +37,24 @@ Nous croyons que la santé ne devrait pas avoir de barrière linguistique et que
 
 ---
 
-## 📁 Structure du projet
+
+---
+
+## ⚠️ Fichiers à ne PAS utiliser en production
+
+Ces fichiers sont uniquement pour tests / expérimentation :
+
+- `GUIDE_EXPOSITION_PUBLIQUE.md`
+- `README_COLAB_WORKING.md`
+- `colab_robotmali_working.py`
+
+👉 Ils ne doivent pas être utilisés dans le déploiement final.
+
+---
+
+##  Lancer le projet
+
+```bash
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
