@@ -6,7 +6,7 @@ Elle permet aux utilisateurs de décrire leurs symptômes en **bambara ou en fra
 
 ---
 
-## 🌍 Vision du projet
+##  Vision du projet
 
 Rendre l'information médicale accessible à tous, dans la langue de son choix, grâce à la voix et à l'intelligence artificielle.
 
@@ -14,19 +14,19 @@ Nous croyons que la santé ne devrait pas avoir de barrière linguistique et que
 
 ---
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
-- 🗣️ Description des symptômes en bambara ou français
-- 🤖 Analyse intelligente des symptômes (IA / pipeline)
-- 🏥 Recherche de centres médicaux proches
-- 💊 Gestion des rappels de médicaments
-- 📚 Articles et conseils médicaux
-- 👤 Gestion des profils utilisateurs
-- 🔊 (optionnel) Support vocal
+-  Description des symptômes en bambara ou français
+-  Analyse intelligente des symptômes (IA / pipeline)
+-  Recherche de centres médicaux proches
+-  Gestion des rappels de médicaments
+-  Articles et conseils médicaux
+-  Gestion des profils utilisateurs
+-  (optionnel) Support vocal
 
 ---
 
-## 🧠 Technologies utilisées
+## Technologies utilisées
 
 - Django (Backend Web)
 - Django REST Framework (API)
