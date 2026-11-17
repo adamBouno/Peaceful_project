@@ -28,7 +28,9 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-your-secret-key-here'
 DEBUG = config('DEBUG', default=True, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1', cast=lambda v: [s.strip() for s in v.split(',')])
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.onrender.com',
+]
 # Configuration Djelia API
 DJELIA_API_KEY = config('DJELIA_API_KEY', default='')
 DJELIA_BASE_URL = config('DJELIA_BASE_URL', default='https://api.djelia.cloud/v2/')
@@ -63,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'rassure_moi.urls'
