@@ -6,3 +6,5 @@ tzdata==2025.2
 gunicorn
 whitenoise
 djangorestframework
+requests
+beautifulsoup4
